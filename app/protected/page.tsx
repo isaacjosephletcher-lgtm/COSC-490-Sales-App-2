@@ -4,7 +4,7 @@ import { createClient } from "@/lib/supabase/server";
 import { InfoIcon } from "lucide-react";
 import { FetchDataSteps } from "@/components/tutorial/fetch-data-steps";
 import { Suspense } from "react";
-import NewSales from "@/components/new-sales";
+import NewSales from "@/components/new-sales"
 
 async function Sales() {
   const supabase = await createClient();
